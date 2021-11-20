@@ -1,0 +1,43 @@
+Good Afternoon Everyone, This is Qazi Maaz Arshad. And I have done my summer training through a MOOC by Coursera on the topic of "Modern Big Data Analysis with SQL Specialization" offered by CLOUDERA.
+So let's begin...
+
+I will be discussing my summer training, what courses I completed, what tasks I did, what was my approach. I will explain my project in brief what is the project, what are the tech stacks I have used, And I will talk about how beneficial was this summer training, what new skills I gained, and how was my experience of working on a project, and at last, I will briefly discuss the future outlook of SQL.
+These are the topics that I have discussed in the report and I will briefly discuss them in this presentation.
+
+My topic was "Modern Big Data Analysis with SQL Specialization" this specialization was comprised of 3 courses offered by CLOUDERA. And it was focused on teaching the essential skills required to manage large-scale data using SQL. 
+
+These 3 courses were part of this specialization. 
+The first-course "Foundations for Big Data Analysis with SQL" was an introduction to basic SQL. It provides the background and concept of SQL and Big Data. An introduction to concepts like What is Data?, What is a Relational Database, What is a DBMS, and basic terminologies to understand SQL.
+The next course "Analyzing Big Data with SQL" provided an in-depth knowledge of the SQL SELECT statement and its main clauses. This course's main focus was to give an understanding of the basics of SELECT statements, how and why to filter data.
+And the final course "Managing Big Data in Clusters and Cloud Storage" gave an understanding of managing big datasets, how to create tables, and how to apply structure to the data to run queries on it using distributed SQL engines like Apache Hive and Impala.
+
+So I enrolled in this MOOC on 13th May 2021 and by 12 July I had completed all three courses. All the courses comprised multiple video lectures, reading materials, quizzes, and multiple assignments. Once the course has started all the tasks like completing video lectures, reading materials, including quizzes and assignments were to be completed before the deadline. Also, to pass the course one must have to score a minimum of 75% or 80% in all the quizzes.
+And by 25th July I had completed my project work.
+
+So now coming to my project.
+I have performed data analysis on a movie's data set, using SQL. I have used MySQL Workbench for designing and managing the database and performed all the operations and ran all queries on MYSQL Workbench. 
+The movies database consists of 4 tables, films, people, reviews, and roles. All the data sets combined consist of more than 20000 entries. The movie's database contains information regarding the name of the movies, the year when they were released, country of origin, duration of films, the language of films, the budget of the movie, and the profit earned. It also contains the name of people who were involved in the films, what was their roles like actors or directors, when they were born, and when they died. It also gives details about the number of reviews a movie received, what was the response it received from the audience, how was the response of the movie over social media, etc.
+In this project, I have calculated various results from this large database, like how many French movies are there, which movie earned the highest profit in the ’90s, which actor acted in most of the movies, what was the average duration of movies, which was the longest English movie, which Indian movie received highest up-votes on social media, etc. 
+And these results can be used to analyze trends in the movies industry in the past.
+In this project, I have implemented all the knowledge I gained in the course, like how to use Structured Query Language (SQL) to extract and analyze data stored in databases.
+
+I did this project because I thought this is the best project that can help me to evaluate all the skills I gained in this course. I got the opportunity to strengthen my grip on SQL commands, It helped me to revise all the concepts, I explored a lot working on this project, I even learned new tools like MySQL workbench. And it taught me how to manage large databases and calculate important results. It was fun working on this project and I look forward to driving more innovation and working on more exciting projects.
+
+Summarising my entire project, I have analyzed a large unstructured movie database which is comprised of 4 different data sets films, reviews, roles, and people. I have calculated and filtered important results from this unstructured data, and these results are useful to get an insight into past trends in the global film industry.
+
+Here is an ER Diagram of this database for you to get a better understanding. It is showing the relationship between four entities or tables in the database and their attributes.
+
+Here are a few screenshots of the project.
+
+I have done the SWOT Analysis of my project(or we can say of SQL) since the entire project is based on SQL. 
+So I find the strength of using SQL is that it is very simple and easy, we can perform data analysis very quickly using basic SQL commands.
+And SQL is a good choice for fetching data but the weakness is that it can not be used alone for visualizing data, if we had to represent our results in form of charts or graphs then it is not a good choice.
+And our weakness possess a threat to us because when the requirement will be to visualize the data into figures then Python or tools like Tableau will be preferred over SQL.
+But we still have the opportunity to overcome our weakness and eliminate the threat, we can use SQL for the work it can do better that is fetching the data and we can use other tools side by side to represent our results in the form of charts or graphs, for example, we can export the query results very easily in a form of CSV file and then use just Excel to create diagrams or charts or use any other tools.
+
+I would like to say that the course was very much informative I got the opportunity to clear my concepts of SQL and DBMS, I became familiar with MySQL Workbench, I got an idea about What is Data Analysis?
+
+At last, I would like to discuss the future outlook of SQL and relational databases, Relational Database Management Systems have not really changed much over the last two decades and SQL is all about enabling applications to store, access, and query their data in a consistent, shareable way. Once an organization has its data stored in a SQL database, different parts of the organization can have access to data from different applications. The success of SQL is in its simplicity and at lower levels of abstraction, we will always need a technology like this. However, somewhere along the line, datasets started getting too big to handle. This is when Big Data came into existence, It is efficient and predicts most of the data right, and saves time and cost so we can say that distributed query engines will become very popular in the future.
+Seeing and analyzing the applications of big data analytics, and the huge support that it provides to companies, it is clear that it is here to stay. 
+
+So that's all from my side. Thank You.
