@@ -1,0 +1,223 @@
+What is a Join?
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+What is SQL?
+SQL stands for Structured Query Language. It is a standard language for accessing and manipulating databases. SQL is used to retrieve data from a database, insert records in a database, update records in a database, delete records from a database, or create new databases.
+SQL is a domain-specific language and it is a declarative language(a program specifies what is to be done rather than how to do it.).
+
+What is a DataBase?
+A database is an organized collection of data so that it can be easily accessed and managed. The main purpose of the database is to operate a large amount of information by storing, retrieving, and managing data.
+There are many databases available like MySQL, Sybase, Oracle, MongoDB, Informix, PostgreSQL, SQL Server, etc.
+Edgar Frank "Ted" Codd is known as the Father of DBMS. He invented a relational model for database management.
+
+What is DBMS?
+A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database. DBMS software primarily functions as an interface between the end-user and the database. Examples - MySQL, PostgreSQL, Microsoft Access, SQL Server, FileMaker, Oracle, RDBMS, dBASE, Clipper, and FoxPro.
+
+Difference between DBMS and RDBMS?
+DBMS applications store data as files. RDBMS applications store data in a tabular form.
+DBMS is meant to be for small organizations and deal with small data. it supports single users. RDBMS is designed to handle a large amount of data. it supports multiple users.
+DBMS does not apply any security concerning data manipulation. RDBMS defines the integrity constraint for the ACID property.
+
+What are the types of Databases?
+8 Types
+Centralized Database - It is the type of database that stores data at a centralized database system.
+Distributed Database - Unlike a centralized database system, in distributed systems, data is distributed among the different database systems of an organization.
+Relational Database - This database is based on the relational data model, which stores data in the form of rows(tuple) and columns(attributes), and together forms a table(relation).
+NoSQL Database - Non-SQL/Not Only SQL is a type of database that is used for storing a wide range of data sets. It is not a relational database as it stores data not only in tabular form but in several different ways.
+Cloud Database - A type of database where data is stored in a virtual environment and executes over the cloud computing platform. There are numerous cloud platforms, Amazon Web Services(AWS), Microsoft Azure, Google Cloud SQL, etc.
+Object-oriented Databases - The type of database that uses the object-based data model approach for storing data in the database system.
+Hierarchical Databases - It is the type of database that stores data in the form of parent-children relationship nodes.
+Network Databases - Unlike the hierarchical database, it allows each record to have multiple children and parent nodes to form a generalized graph structure.
+
+Properties of Relational Database?
+There are four commonly known properties of a relational model known as ACID properties.
+A means Atomicity: This ensures the data operation will be complete either with success or with failure. It follows the 'all or nothing strategy. For example, a transaction will either be committed or will abort.
+C means Consistency: If we perform any operation over the data, its value before and after the operation should be preserved. For example, the account balance before and after the transaction should be correct, i.e., it should remain conserved.
+I mean Isolation: There can be concurrent users for accessing data at the same time from the database. Thus, isolation between the data should remain isolated. For example, when multiple transactions occur at the same time, one transaction effect should not be visible to the other transactions in the database.
+D means Durability: It ensures that once it completes the operation and commits the data, data changes should remain permanent.
+
+Popular Relational Databases are?
+Microsoft SQL Server, Oracle Database, MySQL, and IBM DB2.
+
+What is a Database Model?
+A database model shows the logical structure of a database, including the relationships and constraints that determine how data can be stored and accessed.
+Three main types of DBMS data models: relational, network, and hierarchical.
+Relational data model: Data is organized as logically independent tables.
+Network data model: All entities are organized in graphical representations.
+Hierarchical data model: Data is organized into a tree-like structure.
+
+Which database MySQL Workbench supports?
+Oracle Database, Microsoft SQL Server, SQL Anywhere, Firebird, NexusDB, InterBase, MySQL, MariaDB, and PostgreSQL.
+
+What is Data? Difference between information, data, and knowledge.
+Data is unstructured facts and figures. 
+Facts and figures that relay something specific, but which are not organized in any way and which provide no further information regarding patterns, context, and other details. 
+Information in simple words is contextualized, categorized, calculated, and condensed data. 
+Knowledge is applying the information with understanding, experience, and insight.
+
+What is a Schema?
+A Schema in SQL is a collection of database objects associated with a database. It defines the logical relationship of the tables and is within the database. The design of a database is called the schema. Schema is of three types: Physical schema, logical schema, and view schema.
+Physical Schema - The design of a database at the physical level is called physical schema, how the data is stored in blocks of storage is described at this level.
+Logical Schema - Design of database at logical level is called logical schema, programmers and database administrators work at this level, at this level data can be described as certain types of data records gets stored in data structures, however the internal details such as the implementation of the data structure are hidden at this level (available at the physical level).
+View Schema - The design of the database at the view level is called view schema. This generally describes end-user interaction with database systems.
+
+How is a DBMS Different from a Traditional File System?
+The file system is software that manages and organizes the files in a storage medium within a computer. DBMS is software for managing the database.
+Redundant data can be present in a file system. In DBMS there is no redundant data.
+It is less complex as compared to DBMS. It has more complexity in handling as compared to the file system.
+It is less expensive than DBMS. 
+File systems provide less security and consistency in comparison to DBMS.
+
+Differences between SQL and MySQL?
+SQL is a query language, whereas MySQL is a relational database that uses SQL to query a database.
+You can use SQL to access, update, and manipulate the data stored in a database. However, MySQL is a database that stores the existing data in a database in an organized manner. 
+SQL is used for writing queries for databases, MySQL facilitates data storing, modifying, and management in a tabular format. 
+SQL is not an open-source language. MySQL is an open-source platform.
+
+What is the use of the USE keyword?
+The USE keyword is used to select a database in MySQL and SQL Server. There can be many databases in the server the USE keyword simply tells the system that I am talking about which particular database.
+
+What is the use of CREATE keyword?
+The CREATE DATABASE command is used is to create a new SQL database. The CREATE TABLE command creates a new table in the database.
+
+How many data types are there in SQL?
+Data types are mainly classified into three categories for every database.
+String Data types, Numeric Data types, Date and time Data types.
+Numeric - bit, tinyint, smallint, Int, bigint, float, real, money
+Date - DateTime, date, time
+String - char, varchar, text
+
+Types of SQL Commands?
+There are five types of SQL commands: DDL, DML, DCL, TCL, and DQL.
+
+Data Definition Language (DDL) - DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
+CREATE: to create objects in a database
+ALTER: alters the structure of the database
+DROP: delete objects from a database
+RENAME: rename an objects
+TRUNCATE - It is used to delete all the rows from the table and free the space containing the table. ​
+
+Data Manipulation Language (DML) - DML commands are used to modify the database. It is responsible for all forms of changes in the database.
+SELECT: Retrieve data from the database
+INSERT: Insert data into a table
+UPDATE: Update existing data within a table
+DELETE: Deletes all records from a table
+
+Data Control Language (DCL) - DCL commands are used to grant and take back authority from any database user.
+GRANT: allow specified users to perform specified tasks.
+REVOKE: cancel previously granted or denied permissions.
+
+Transaction Control Language (TCL) - TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
+COMMIT: Commit command is used to permanently save any transaction into the database.
+ROLLBACK: This command restores the database to the last committed state. It is also used with the savepoint command to jump to a save point in a transaction.
+SAVEPOINT: Savepoint command is used to temporarily save a transaction so that you can roll back to that point whenever necessary.
+
+Data Query Language (DQL) - DQL is used to fetch the data from the database.
+SELECT - The SELECT keyword is used to select data from a database.
+
+Difference between Char and Varchar?
+Char is a fixed-width character string data type. Varchar is a variable width character string data type. 
+
+What are CONSTRAINTS?
+SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table.
+Commonly used constraints used in SQL are:
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+CHECK - Ensures that the values in a column satisfy a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+FOREIGN KEY  - A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+
+Use of Show Tables command?
+The SHOW TABLES command is used to display all tables in the current database.
+
+Keywords
+UPDATE - Used to modify rows in a table
+SET - The SET command is used with UPDATE to specify which columns and values should be updated in a table.
+DELETE - The DELETE statement is used to delete existing records in a table.
+INSERT INTO - The INSERT INTO statement is used to insert new records in a table.
+SELECT - The SELECT keyword is used to select data from a database.
+FROM - Specifies which table to select or delete data from
+* - An asterisk (" * ") can be used to specify that the query should return all columns of the queried tables.
+DISTINCT - The SELECT DISTINCT statement is used to return only distinct (different) values.
+COUNT - The COUNT() function returns the number of rows that matches a specified criterion.
+AVG - The AVG() function returns the average value of a numeric column. 
+SUM - The SUM() function returns the total sum of a numeric column. 
+MIN - The MIN() function returns the smallest value of the selected column.
+MAX - The MAX() function returns the largest value of the selected column.
+AS - The AS command is used to rename a column or table with an alias.
+ROUND - The ROUND() function rounds a number to a specified number of decimal places. ROUND(number, decimals, operation)
+FLOOR - The FLOOR() function returns the largest integer value that is smaller than or equal to a number.
+CEILING - The CEILING() function returns the smallest integer value that is larger than or equal to a number.
+WHERE - WHERE Clause is a keyword used to specify the exact criteria of data or rows that will be affected by the specified SQL statement. The WHERE clause can be used with SQL statements like INSERT, UPDATE, SELECT, and DELETE to filter records and perform various operations on the data.
+OR - The OR operator displays a record if any of the conditions separated by OR is TRUE.
+AND - The AND operator displays a record if all the conditions separated by AND are TRUE.
+NOT - The NOT operator displays a record if the condition(s) is NOT TRUE.
+<> - It is not equal to operator.
+BETWEEN - The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+IN -  IN command allows us to specify multiple values in a WHERE clause. We can understand it as a shorthand for multiple OR conditions.
+IS NULL - The IS NULL operator is used to testing for empty values (NULL values).
+IS NOT NULL - The IS NOT NULL operator is used to test for non-empty values (NOT NULL values).
+LIKE - The LIKE command is used in a WHERE clause to search for a specified pattern in a column. % - Represents zero, one, or multiple characters, _ - Represents a single character
+ORDER BY - The ORDER BY keyword is used to sort the result-set in ascending or descending order. The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order we use the DESC keyword.
+GROUP BY - The GROUP BY statement in SQL is used to arrange identical data into groups with the help of some functions.
+HAVING - A HAVING clause in SQL specifies that an SQL SELECT statement must only return rows where aggregate values meet the specified conditions. The HAVING clause places the condition in the groups defined by the GROUP BY clause in the SELECT statement.
+LIMIT - The SQL LIMIT clause restricts how many rows are returned from a query. 
+
+What is aliasing in SQL?
+An SQL alias is a reference name for a table or a column. They are used to shorten your queries if you have long table names. Both table and column aliases are defined using the AS keyword. An alias lasts until a query has been executed. Aliases are not permanent.
+
+Trigger: A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs. For example, a trigger can be invoked when a row is inserted into a specified table or when certain table columns are being updated.
+
+Arithmetic Operators?
+Arithmetic operators can perform arithmetical operations on numeric operands. Arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), and % (Modulo). The + and - operators can also be used in date arithmetic.
+
+Filtering?
+Filtering is a useful way to see only the data that we want to be displayed in the database. The WHERE clause is used in SQL filter queries.
+
+What is a clause?
+Clauses are in-built functions available to us in SQL.
+
+What are the subqueries in SQL?
+A SQL subquery is a query inside another query. A subquery is usually added within the WHERE Clause of another SQL SELECT statement. The inner query executes first before its parent query so that the results of an inner query can be passed to the outer query.
+
+Execution Order:
+SELECT, FROM, WHERE, GROUP BY, HAVING, and ORDER BY
+
+Big Data?
+Big data is a term used to describe the vast amount of digital information that is generating in our world on a daily basis. Data comes in various forms, such as social media posts, images, videos and it's growing exponentially. The massive size of this data makes traditional computing challenging because standard computer systems cannot store or analyze it fast enough.
+A common definition of Big Data refers to structured, semi-structured and unstructured data of such volume, velocity and variety that traditional data processing applications are inadequate. 
+
+5V's of Big Data?
+Volume, Velocity, Variety, Veracity, Value.
+Volume is a huge amount of data.
+Velocity refers to the high speed of accumulation of data.
+Variety: It refers to nature of data that is structured, semi-structured and unstructured data.
+Veracity refers to inconsistencies and uncertainty in data, that is data which is available can sometimes get messy and quality and accuracy are difficult to control.
+Value - The bulk of Data having no Value is of no good to the company, unless you turn it into something useful.
+
+Data Analysis?
+Data analysis refers to the technique of collecting raw data, analyzing it and transforming it into information that can be used to reach a specific conclusion.
+
+Apache Hive is an open source data warehouse software for reading, writing and managing large data set files that are stored directly in either the Apache Hadoop Distributed File System (HDFS) or other data storage systems such as Apache HBase.
+Apache Impala is an open source massively parallel processing SQL query engine for data stored in a computer cluster running Apache Hadoop.
+
+Hadoop?
+Apache Hadoop is a big data technology used for handling data that is huge, complex and cannot be stored in traditional databases.
+Hadoop is a framework that allows you to store large volumes of data on several node machines. It helps in processing data in a parallel manner.
+
+ER Diagram?
+Entity - An Entity may be an object with a physical existence – a particular person, car, house, or employee – or it may be an object with a conceptual existence.
+Attributes - Attributes are the properties which define the entity type.
+Key Attribute – The attribute which uniquely identifies each entity.
+Composite Attribute - An attribute composed of many other attribute is called as composite attribute.
+Multivalued Attribute - An attribute consisting more than one value for a given entity.
+Derived Attribute -An attribute which can be derived from other attributes of the entity type is known as derived attribute.
+Relationship - A relationship type represents the association between entity types. 
+Cardinality: The number of times an entity of an entity set participates in a relationship set is known as cardinality.
+Partial Participation – The entity in the entity set may or may NOT participate in the relationship.
+Total Participation – Each entity in the entity set must participate in the relationship.
