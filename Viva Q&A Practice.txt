@@ -78,6 +78,10 @@ You can use SQL to access, update, and manipulate the data stored in a database.
 SQL is used for writing queries for databases, MySQL facilitates data storing, modifying, and management in a tabular format. 
 SQL is not an open-source language. MySQL is an open-source platform.
 
+Two-tier Architecture and Three-tier Architecture?
+2-tier - Clients directly communicate with database.
+3-tier - Clients communicate with GUI or application which then communicated with database.
+
 What is the use of the USE keyword?
 The USE keyword is used to select a database in MySQL and SQL Server. There can be many databases in the server the USE keyword simply tells the system that I am talking about which particular database.
 
@@ -119,6 +123,11 @@ SAVEPOINT: Savepoint command is used to temporarily save a transaction so that y
 Data Query Language (DQL) - DQL is used to fetch the data from the database.
 SELECT - The SELECT keyword is used to select data from a database.
 
+Difference between DROP, TRUNCATE, AND DELETE?
+DROP - Used to delete a database or a table.
+TRUNCATE - Used to delete all rows from a table.
+DELETE - Used to delete a row in a table.
+
 Difference between Char and Varchar?
 Char is a fixed-width character string data type. Varchar is a variable width character string data type. 
 
@@ -131,9 +140,11 @@ PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each r
 CHECK - Ensures that the values in a column satisfy a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 FOREIGN KEY  - A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+
 CANDIDATE KEY - The minimal set of attributes that can uniquely identify a tuple is known as a candidate key.
 SUPER KEY - Set of attributes that can uniquely identify each record
 COMPOSITE KEY - Two or more attributes that can uniquely identifies any record in a table. (Both will together form a primary key)
+ALTERNATE KEY - Candidate keys which are not chosen as a primary key.
 
 What is Normalization?
 It is the process of minimizing redundancy. It removes insertion anomaly, deletion anomaly, deletion anomaly. 
@@ -198,6 +209,14 @@ What is aliasing in SQL?
 An SQL alias is a reference name for a table or a column. They are used to shorten your queries if you have long table names. Both table and column aliases are defined using the AS keyword. An alias lasts until a query has been executed. Aliases are not permanent.
 
 Trigger: A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs. For example, a trigger can be invoked when a row is inserted into a specified table or when certain table columns are being updated.
+
+Difference between Triggers and Stored Procedures?
+
+Specialization and Generalization?
+
+Integrity rules in DBMS?
+
+What is Deadlock and how it can be resolved?
 
 Arithmetic Operators?
 Arithmetic operators can perform arithmetical operations on numeric operands. Arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), and % (Modulo). The + and - operators can also be used in date arithmetic.
