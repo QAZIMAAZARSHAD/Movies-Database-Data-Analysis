@@ -132,6 +132,17 @@ CHECK - Ensures that the values in a column satisfy a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 FOREIGN KEY  - A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
 
+What is Normalization?
+It is the process of minimizing redundancy. It removes insertion anomaly, deletion anomaly, deletion anomaly. 
+Normalization divides larger tables into smaller tables and links them using relationship.
+There are 4 normal forms 1NF, 2NF, 3NF, BCNF.
+
+Rules of 1NF: A relation is in first normal form if every attribute in that relation is singled valued attribute.
+Single valued attributes
+Attribute data type should not change
+Unique name for all columns
+Order doesn't matter
+
 Use of Show Tables command?
 The SHOW TABLES command is used to display all tables in the current database.
 
