@@ -131,6 +131,9 @@ PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each r
 CHECK - Ensures that the values in a column satisfy a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 FOREIGN KEY  - A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+CANDIDATE KEY - The minimal set of attributes that can uniquely identify a tuple is known as a candidate key.
+SUPER KEY - Set of attributes that can uniquely identify each record
+COMPOSITE KEY - Two or more attributes that can uniquely identifies any record in a table. (Both will together form a primary key)
 
 What is Normalization?
 It is the process of minimizing redundancy. It removes insertion anomaly, deletion anomaly, deletion anomaly. 
@@ -142,6 +145,18 @@ Single valued attributes
 Attribute data type should not change
 Unique name for all columns
 Order doesn't matter
+
+Rules for 2NF:
+Table should be in 1NF
+No partial dependency (Dependency - All columns are dependent on one primary key)
+
+Rules for 3NF:
+Tabe should be in 2nf
+No transitive dependency (Transitive Dependency - When one column depends on a column which is not primary key)
+
+Rules for BCNF: Advanced version of 3NF
+It is in 3NF
+
 
 Use of Show Tables command?
 The SHOW TABLES command is used to display all tables in the current database.
