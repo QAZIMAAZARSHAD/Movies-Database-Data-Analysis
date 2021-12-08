@@ -99,7 +99,7 @@ CREATE: to create objects in a database
 ALTER: alters the structure of the database
 DROP: delete objects from a database
 RENAME: rename an objects
-TRUNCATE - It is used to delete all the rows from the table and free the space containing the table. ​
+TRUNCATE - It is used to delete all the rows from the table and free the space containing the table. 
 
 Data Manipulation Language (DML) - DML commands are used to modify the database. It is responsible for all forms of changes in the database.
 SELECT: Retrieve data from the database
@@ -165,7 +165,7 @@ IS NOT NULL - The IS NOT NULL operator is used to test for non-empty values (NOT
 LIKE - The LIKE command is used in a WHERE clause to search for a specified pattern in a column. % - Represents zero, one, or multiple characters, _ - Represents a single character
 ORDER BY - The ORDER BY keyword is used to sort the result-set in ascending or descending order. The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order we use the DESC keyword.
 GROUP BY - The GROUP BY statement in SQL is used to arrange identical data into groups with the help of some functions.
-HAVING - A HAVING clause in SQL specifies that an SQL SELECT statement must only return rows where aggregate values meet the specified conditions. The HAVING clause places the condition in the groups defined by the GROUP BY clause in the SELECT statement.
+HAVING - A HAVING clause in SQL specifies that a SQL SELECT statement must only return rows where aggregate values meet the specified conditions. The HAVING clause places the condition in the groups defined by the GROUP BY clause in the SELECT statement.
 LIMIT - The SQL LIMIT clause restricts how many rows are returned from a query. 
 
 What is aliasing in SQL?
