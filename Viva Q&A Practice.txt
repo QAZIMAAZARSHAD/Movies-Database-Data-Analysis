@@ -210,14 +210,6 @@ An SQL alias is a reference name for a table or a column. They are used to short
 
 Trigger: A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs. For example, a trigger can be invoked when a row is inserted into a specified table or when certain table columns are being updated.
 
-Difference between Triggers and Stored Procedures?
-
-Specialization and Generalization?
-
-Integrity rules in DBMS?
-
-What is Deadlock and how it can be resolved?
-
 Arithmetic Operators?
 Arithmetic operators can perform arithmetical operations on numeric operands. Arithmetic operators are addition(+), subtraction(-), multiplication(*), division(/), and % (Modulo). The + and - operators can also be used in date arithmetic.
 
