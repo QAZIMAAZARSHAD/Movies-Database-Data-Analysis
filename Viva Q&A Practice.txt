@@ -225,6 +225,12 @@ A SQL subquery is a query inside another query. A subquery is usually added with
 Execution Order:
 SELECT, FROM, WHERE, GROUP BY, HAVING, and ORDER BY
 
+Integrity rules in DBMS?
+Integrity constraints are a set of rules. It is used to maintain the quality of information.
+Domain constraints - The data type of attributes should be the same in a column.
+Entity integrity constraints - Primary key cannot be null.
+Referential Integrity Constraints - If a foreign key is present then it must be available.
+
 Big Data?
 Big data is a term used to describe the vast amount of digital information that is generating in our world on a daily basis. Data comes in various forms, such as social media posts, images, videos and it's growing exponentially. The massive size of this data makes traditional computing challenging because standard computer systems cannot store or analyze it fast enough.
 A common definition of Big Data refers to structured, semi-structured and unstructured data of such volume, velocity and variety that traditional data processing applications are inadequate. 
